@@ -123,7 +123,7 @@ function fakeSubmit() {
   const phone = document.getElementById("phone").value;
   const agree = document.getElementById("agree").checked;
 
-  if (!/^1\\d{10}$/.test(phone)) {
+  if (!/^1\d{10}$/.test(phone)) {
     alert("请输入正确手机号");
     return;
   }
